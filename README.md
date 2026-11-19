@@ -6,6 +6,7 @@ Grand Agentic AI Challenge（智能体大奖赛）的赛程推演页面：从赛
 - `scenario.js`：默认场景。赛前任务和工期估计、赛后步骤、可注入的风险、一键情景、风险登记册
 - `engine.js`：推演规则（补时、挪补赛、候补补位、启动门禁、春节顺延等），纯计算，也能用 Node 跑
 - `infra/`：LLM 推理基础设施全景（调研报告 + 单篇文档）。由 `~/projects/yue/inference-infra/tools/build_concepts.py` 生成，不要手改，改内容请改那边的 md 再重跑脚本
+- `prep/`：vLLM × DeepSeek-V4.1-Flash 中文读本（原 gaac-prep 站点）。由 `参考资料/DeepSeek_V4.1_Flash_推理数据/publish_to_sandbox.py` 同步过来，不要手改
 
 工期和日期都是推演假设，不是正式赛程。赛制依据 oaic.ai/gaac（2026-11-02 更新，页面注明“赛制暂定，仅供参考”）。
 
